@@ -1,4 +1,4 @@
-function Dijkstra() {
+export default function Dijkstra() {
   const Node = {
     init: function (val, priority) {
       this.val = val;
